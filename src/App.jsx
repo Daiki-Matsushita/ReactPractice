@@ -21,7 +21,6 @@ const App = () => {
     } else {
       faceShowFlg && setFaceShowFlg(false);
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [num]);
 
   return (
